@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="AgeCalculatorEJBClientClient">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/AgeCalculatorEJBClientClient/AgeCalculatorEJBClientClient.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/AgeCalculatorEJBClientClient/AgeCalculatorEJBClient.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.j2ee.clientproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/car-project/1">
+            <name>AgeCalculatorEJBClient</name>
+            <minimum-ant-version>1.6.5</minimum-ant-version>
+            <source-roots>
+                <root id="src.dir"/>
+            </source-roots>
+            <test-roots>
+                <root id="test.src.dir"/>
+            </test-roots>
+            <included-library dirs="200">file.reference.aopalliance-1.0.jar</included-library>
+            <included-library dirs="200">file.reference.commons-logging-1.2.jar</included-library>
+            <included-library dirs="200">file.reference.spring-aop-5.2.3.RELEASE.jar</included-library>
+            <included-library dirs="200">file.reference.spring-aspects-5.2.3.RELEASE.jar</included-library>
+            <included-library dirs="200">file.reference.spring-beans-5.2.3.RELEASE.jar</included-library>
+            <included-library dirs="200">file.reference.spring-context-5.2.3.RELEASE.jar</included-library>
+            <included-library dirs="200">file.reference.spring-context-support-5.2.3.RELEASE.jar</included-library>
+            <included-library dirs="200">file.reference.spring-core-5.2.3.RELEASE.jar</included-library>
+            <included-library dirs="200">file.reference.spring-expression-5.2.3.RELEASE.jar</included-library>
+            <included-library dirs="200">file.reference.spring-instrument-5.2.3.RELEASE.jar</included-library>
+            <included-library dirs="200">file.reference.spring-jdbc-5.2.3.RELEASE.jar</included-library>
+            <included-library dirs="200">file.reference.spring-jms-5.2.3.RELEASE.jar</included-library>
+            <included-library dirs="200">file.reference.spring-messaging-5.2.3.RELEASE.jar</included-library>
+            <included-library dirs="200">file.reference.spring-orm-5.2.3.RELEASE.jar</included-library>
+            <included-library dirs="200">file.reference.spring-oxm-5.2.3.RELEASE.jar</included-library>
+            <included-library dirs="200">file.reference.spring-test-5.2.3.RELEASE.jar</included-library>
+            <included-library dirs="200">file.reference.spring-tx-5.2.3.RELEASE.jar</included-library>
+            <included-library dirs="200">file.reference.AgeCalculatorEJB.jar</included-library>
+            <included-library dirs="200">file.reference.base.jar</included-library>
+            <included-library dirs="200">file.reference.gson-2.2.2.jar</included-library>
+            <included-library dirs="200">file.reference.timetable-spring.jar-1</included-library>
+            <included-library dirs="100">reference.AgeCalculatorEJB.dist</included-library>
+        </data>
+        <references xmlns="http://www.netbeans.org/ns/ant-project-references/1">
+            <reference>
+                <foreign-project>AgeCalculatorEJB</foreign-project>
+                <artifact-type>jar</artifact-type>
+                <script>build.xml</script>
+                <target>dist</target>
+                <clean-target>clean</clean-target>
+                <id>dist</id>
+            </reference>
+        </references>
+    </configuration>
+</project>
